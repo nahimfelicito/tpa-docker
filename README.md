@@ -5,7 +5,7 @@ First: Install [DOCKER](https://docs.docker.com/engine/install/ubuntu/)
 Second: Launch mysql container
 
 ```console
-foo@bar:~$ docker run --name mysql-persona -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=db_persona -p 3306:3306 -d mysql:latest
+foo@bar:~$ docker run --name mysql-persona -e MYSQL_ROOT_PASSWORD=4219761 -e MYSQL_DATABASE=db_persona -p 3306:3306 -d mysql:latest
 foo@bar:~$
 ```
 
