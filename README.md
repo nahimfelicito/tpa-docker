@@ -14,6 +14,6 @@ You can change mysql container config but do not forget it to change aplication 
 Third: Launch api-persona with a link to the first container
 
 ```console
-foo@bar:~$ docker run --name apipersona -p 9000:9000 -i -t --link mysql-persona:mysql api-persona1.0
+foo@bar:~$ docker run --name apipersona -p 9000:9000 -i -t --link mysql-persona:mysql nahimfelicito/api-persona1.0:latest
 foo@bar:~$
 ```
